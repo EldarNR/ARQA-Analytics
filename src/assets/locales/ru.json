@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "title": "Настройки",
+    "theme": "Тема",
+    "switchTheme": "Переключить на {{theme}}",
+    "language": "Язык"
+  },
+  "sidebar": {
+    "dashboard": "Приборная панель",
+    "orders": "Заказы",
+    "customers": "Клиенты",
+    "settings": "Настройки"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "switchTheme": "Switch to {{theme}}",
+    "language": "Language"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "customers": "Customers",
+    "settings": "Settings"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "date": "2025-08-01",
+      "customerId": "CUS-001",
+      "city": "Алматы",
+      "channel": "Web",
+      "status": "Shipped",
+      "total": 52700,
+      "items": [
+        {
+          "sku": "SKU-1",
+          "name": "Product A",
+          "qty": 2,
+          "price": 12000
+        },
+        {
+          "sku": "SKU-2",
+          "name": "Product B",
+          "qty": 1,
+          "price": 28700
+        }
+      ],
+      "comment": "Уточнить время доставки"
+    },
+    {
+      "id": "ORD-1002",
+      "date": "2025-08-05",
+      "customerId": "CUS-002",
+      "city": "Астана",
+      "channel": "Mobile",
+      "status": "Shipped",
+      "total": 43000,
+      "items": [
+        {
+          "sku": "SKU-3",
+          "name": "Product C",
+          "qty": 1,
+          "price": 43000
+        }
+      ],
+      "comment": ""
+    },
+    {
+      "id": "ORD-1003",
+      "date": "2025-08-06",
+      "customerId": "CUS-003",
+      "city": "Шымкент",
+      "channel": "Web",
+      "status": "Shipped",
+      "total": 26000,
+      "items": [
+        {
+          "sku": "SKU-4",
+          "name": "Product E",
+          "qty": 2,
+          "price": 13000
+        }
+      ],
+      "comment": "test"
+    },
+    {
+      "id": "ORD-1004",
+      "date": "2025-08-07",
+      "customerId": "CUS-001",
+      "city": "Алматы",
+      "channel": "Mobile",
+      "status": "Shipped",
+      "total": 75500,
+      "items": [
+        {
+          "sku": "SKU-5",
+          "name": "Product F",
+          "qty": 1,
+          "price": 75500
+        }
+      ],
+      "comment": "Срочная доставка"
+    },
+    {
+      "id": "ORD-1005",
+      "date": "2025-08-08",
+      "customerId": "CUS-004",
+      "city": "Астана",
+      "channel": "Offline",
+      "status": "Shipped",
+      "total": 34200,
+      "items": [
+        {
+          "sku": "SKU-6",
+          "name": "Product G",
+          "qty": 3,
+          "price": 11400
+        }
+      ],
+      "comment": ""
+    },
+    {
+      "id": "ORD-1006",
+      "date": "2025-08-10",
+      "customerId": "CUS-002",
+      "city": "Астана",
+      "channel": "Web",
+      "status": "Processing",
+      "total": 89000,
+      "items": [
+        {
+          "sku": "SKU-7",
+          "name": "Product H",
+          "qty": 2,
+          "price": 44500
+        }
+      ],
+      "comment": "Подарочная упаковка"
+    },
+    {
+      "id": "ORD-1007",
+      "date": "2025-08-12",
+      "customerId": "CUS-005",
+      "city": "Шымкент",
+      "channel": "Mobile",
+      "status": "Shipped",
+      "total": 15800,
+      "items": [
+        {
+          "sku": "SKU-8",
+          "name": "Product I",
+          "qty": 1,
+          "price": 15800
+        }
+      ],
+      "comment": ""
+    },
+    {
+      "id": "ORD-1008",
+      "date": "2025-08-15",
+      "customerId": "CUS-003",
+      "city": "Шымкент",
+      "channel": "Web",
+      "status": "New",
+      "total": 67300,
+      "items": [
+        {
+          "sku": "SKU-9",
+          "name": "Product J",
+          "qty": 1,
+          "price": 37300
+        },
+        {
+          "sku": "SKU-10",
+          "name": "Product K",
+          "qty": 1,
+          "price": 30000
+        }
+      ],
+      "comment": "Позвонить перед доставкой"
+    },
+    {
+      "id": "ORD-1009",
+      "date": "2025-08-18",
+      "customerId": "CUS-006",
+      "city": "Алматы",
+      "channel": "Offline",
+      "status": "New",
+      "total": 122000,
+      "items": [
+        {
+          "sku": "SKU-11",
+          "name": "Product L",
+          "qty": 4,
+          "price": 30500
+        }
+      ],
+      "comment": "Оплачено картой"
+    },
+    {
+      "id": "ORD-1010",
+      "date": "2025-08-20",
+      "customerId": "CUS-007",
+      "city": "Алматы",
+      "channel": "Web",
+      "status": "Processing",
+      "total": 58900,
+      "items": [
+        {
+          "sku": "SKU-12",
+          "name": "Product M",
+          "qty": 2,
+          "price": 29450
+        }
+      ],
+      "comment": ""
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUS-001",
+      "name": "Aigerim K.",
+      "email": "aigerim@example.com",
+      "city": "Алматы",
+      "ltv": 245000,
+      "ordersCount": 6
+    },
+    {
+      "id": "CUS-002",
+      "name": "Dauren B.",
+      "email": "dauren@example.com",
+      "city": "Астана",
+      "ltv": 120000,
+      "ordersCount": 3
+    },
+    {
+      "id": "CUS-003",
+      "name": "Amina S.",
+      "email": "amina@example.com",
+      "city": "Шымкент",
+      "ltv": 93300,
+      "ordersCount": 2
+    },
+    {
+      "id": "CUS-004",
+      "name": "Nursultan T.",
+      "email": "nursultan@example.com",
+      "city": "Астана",
+      "ltv": 34200,
+      "ordersCount": 1
+    },
+    {
+      "id": "CUS-005",
+      "name": "Aida M.",
+      "email": "aida@example.com",
+      "city": "Шымкент",
+      "ltv": 15800,
+      "ordersCount": 1
+    },
+    {
+      "id": "CUS-006",
+      "name": "Arman K.",
+      "email": "arman@example.com",
+      "city": "Алматы",
+      "ltv": 122000,
+      "ordersCount": 1
+    },
+    {
+      "id": "CUS-007",
+      "name": "Zhanna A.",
+      "email": "zhanna@example.com",
+      "city": "Алматы",
+      "ltv": 58900,
+      "ordersCount": 1
+    }
+  ],
+  "visits": [
+    {
+      "date": "2025-08-01",
+      "channel": "Web",
+      "city": "Алматы",
+      "visits": 145
+    },
+    {
+      "date": "2025-08-01",
+      "channel": "Mobile",
+      "city": "Алматы",
+      "visits": 89
+    },
+    {
+      "date": "2025-08-05",
+      "channel": "Mobile",
+      "city": "Астана",
+      "visits": 76
+    },
+    {
+      "date": "2025-08-06",
+      "channel": "Web",
+      "city": "Шымкент",
+      "visits": 34
+    },
+    {
+      "date": "2025-08-07",
+      "channel": "Mobile",
+      "city": "Алматы",
+      "visits": 112
+    },
+    {
+      "date": "2025-08-08",
+      "channel": "Offline",
+      "city": "Астана",
+      "visits": 23
+    }
+  ]
+}
