@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['next/core-web-vitals', 'next', 'prettier'],
   plugins: ['@typescript-eslint', 'no-relative-import-paths', 'simple-import-sort'],
-  ignorePatterns: ['.eslintrc.cjs', 'src/server/*'],
+  ignorePatterns: ['.eslintrc.cjs', 'src/server/*', 'src/components/ui/*'],
   env: { browser: true, es2020: true },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -49,7 +49,7 @@ module.exports = {
     'brace-style': ['error', '1tbs'],
     curly: ['error', 'all'],
     'linebreak-style': ['off'],
-    'max-depth': ['warn', 2],
+    'max-depth': ['warn', 3],
     'max-len': ['warn', { code: 130 }],
     'max-lines-per-function': [
       'warn',

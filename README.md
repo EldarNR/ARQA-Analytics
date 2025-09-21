@@ -1,38 +1,26 @@
 My Next.js App
 
-Это современное приложение, созданное на базе [Next.js](https://nextjs.org/), с поддержкой SCSS и возможностью автоматического деплоя через CI/CD.
+Это современное приложение, созданное на базе [Next.js](https://nextjs.org/), с поддержкой SCSS и возможностью
+автоматического деплоя через CI/CD.
 
 Быстрый старт
 
 1. Установка зависимостей
-npm install или yarn install
+   npm install или yarn install
 2. Запуск в режиме разработки
-npm run dev
+   npm run dev
 3. Сборка для продакшена
-npm run build
+   npm run build
 4. Запуск продакшн-сборки
-npm run start
+   npm run start
 
-Используемые технологии
-Next.js, TypeScript, Axios, React-Query, Zustand, SCSS, CI/CD
+Используемые технологии Next.js(App Router), TypeScript, Tantask Querya, Tailwind / shadcn/ui, Chart.js, Jest, ESLint +
+Prettie, I18n, CI/CD
 
-CI/CD
-Автоматический деплой выполняется при каждом пуше в main-ветку с помощью GitHub Actions.
 Структура проекта (Компонентный)
-<div>
-my-app/
-├── src/
-|   ├── api/          # Запросы
-│   ├── app/          # layout.tsx
-│   ├── assets/       # Медиа файлы
-│   ├── pages/        # Страницы Next.js
-│   ├── components/   # Переиспользуемые компоненты
-│   ├── store/        # Стейт менеджер
-│   ├── provider/     # Обертка для React Query
-│   └── style/        # SCSS стили
-├── public/           # Публичные ассеты
-├── .github/          # CI/CD workflows
-├── package.json
-└── README.md
-</div>
 
+src/ ├── app/ # Основное приложение (роутинг, главные компоненты) ├── assets/ # Ресурсы приложения (иконки, изображения,
+стили, локализация) ├── components/ # UI - Компоненты ├── helpers/ # Вспомогательные утилиты и функции ├── hooks/ #
+Кастомные React хуки и Tantask Query ├── lib/ # Внешние библиотеки и их конфигурация ├── providers/ # React провайдеры (
+контексты) ├── server/ # Серверная логика (API routes, серверные функции) ├── style/ # Глобальные стили и темы ├──
+tests_/ # Тесты

@@ -6,7 +6,7 @@
       "customerId": "CUS-001",
       "city": "Алматы",
       "channel": "Web",
-      "status": "Shipped",
+      "status": "Processing",
       "total": 52700,
       "items": [
         {
@@ -180,7 +180,7 @@
       "customerId": "CUS-007",
       "city": "Алматы",
       "channel": "Web",
-      "status": "Processing",
+      "status": "New",
       "total": 58900,
       "items": [
         {
