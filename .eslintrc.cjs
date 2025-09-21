@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['next/core-web-vitals', 'next', 'prettier'],
   plugins: ['@typescript-eslint', 'no-relative-import-paths', 'simple-import-sort'],
-  ignorePatterns: ['.eslintrc.cjs'],
+  ignorePatterns: ['.eslintrc.cjs', 'src/server/*'],
   env: { browser: true, es2020: true },
   parser: '@typescript-eslint/parser',
   parserOptions: {
